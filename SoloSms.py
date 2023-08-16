@@ -4,7 +4,7 @@ from os import system
 from requests import get
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-r = get("https://raw.githubusercontent.com/cangvnn/Z-Bomb/main/sms.py").text
+r = get("https://raw.githubusercontent.com/SolomanLane/Sms-Solo/main/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
@@ -14,7 +14,7 @@ else:
     with open("sms.py", "w", encoding="utf-8") as f:
         f.write(r)
 from sms import SendSms
-r = get("https://raw.githubusercontent.com/cangvnn/Z-Bomb/main/call.py").text
+r = get("https://raw.githubusercontent.com/SolomanLane/Sms-Solo/main/call.py").text
 with open("call.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
