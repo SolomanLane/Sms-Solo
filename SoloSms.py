@@ -40,7 +40,7 @@ while 1:
     system("cls||clear")
     print("""{}
           
-       ▀▄▀▄▀▄ 𝑺𝒐𝒍𝒐𝑺𝒎𝒔 ▄▀▄▀▄▀
+       SMS Alperen
         
     Sms: {}                         
     Ara (beta): {}                 
